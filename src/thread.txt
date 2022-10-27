@@ -1,0 +1,12 @@
+Process (Runtime) : 응용프로그램(.exe) 단위로 실행되는 모듈
+
+Runnable(Thread) : 하나의 프로세스에 여러개의 메소드 단위로 실행되는 모듈
+
+Process - T,T,T...
+(OS에서 제어할 수 있는 가장 작은 단위)
+
+자바에서 메소드 단위로 프로그램 실행
+1. Runnable을 implements
+2. Thread를 extends
+
+run() 메소드 구현 --> start()를 실행(run() 자동 호출)
